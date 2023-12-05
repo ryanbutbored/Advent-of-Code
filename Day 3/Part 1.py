@@ -22,7 +22,7 @@ for i in range(len(schematic)):
     j = 0
     while j < lineLength:
         counted = False
-        #check each digit in each line if it is next to a symbol, if it is then extract the whole number from the line then move on to the next value after the numberS
+        #check each digit in each line if it is next to a symbol, if it is then extract the whole number from the line then move on to the next value after the numbers
         if line[j].isnumeric():
             if i > 0:
                 if not (schematic[i-1][j] in allowed or counted):
