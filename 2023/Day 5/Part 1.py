@@ -1,4 +1,4 @@
-f = open("Day 5\\input.txt")
+f = open("2023\\Day 5\\input.txt")
 lines = f.readlines()
 seeds = [int(x) for x in lines[0].strip().split(": ")[1].split(" ")]
 maps = []

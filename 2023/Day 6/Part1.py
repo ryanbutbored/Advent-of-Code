@@ -1,4 +1,4 @@
-f = open("Day 6\\input.txt", "r")
+f = open("2023\\Day 6\\input.txt", "r")
 lines = f.readlines()
 times = [int(x) for x in lines[0].strip().split(":")[1].split(" ") if x != ""]
 distances = [int(x) for x in lines[1].strip().split(":")[1].split(" ") if x != ""]

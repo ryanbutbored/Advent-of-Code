@@ -1,4 +1,4 @@
-f = open("Day 4\\input.txt")
+f = open("2023\\Day 4\\input.txt")
 cards = f.readlines()
 total = 0
 for card in cards:

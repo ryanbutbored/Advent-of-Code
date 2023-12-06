@@ -12,7 +12,7 @@ def extractNumber(line, x):
             newnum += c
     return int(newnum), end
 
-f = open("Day 3\\input.txt")
+f = open("2023\\Day 3\\input.txt")
 schematic = f.readlines()
 lineLength = len(schematic[0].strip())
 allowed = "0123456789."
