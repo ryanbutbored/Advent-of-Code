@@ -1,4 +1,4 @@
-f = open("2023\\Day 2\\input.txt", "r")
+f = open("2023\\Day 02\\input.txt", "r")
 lines = f.readlines()
 total = 0
 for line in lines:

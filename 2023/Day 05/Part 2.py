@@ -1,7 +1,7 @@
 #currently all this is, is a memory leak simulator
 from time import time
 
-f = open("2023\\Day 5\\input.txt")
+f = open("2023\\Day 05\\input.txt")
 lines = f.readlines()
 tempSeeds = [int(x) for x in lines[0].strip().split(": ")[1].split(" ")]
 seeds = []

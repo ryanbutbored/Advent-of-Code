@@ -1,6 +1,6 @@
 #can't use a queue system unless you have a quantum computer unfortunately so this works well
 
-f = open("2023\\Day 4\\input.txt")
+f = open("2023\\Day 04\\input.txt")
 cards = []
 lines = f.readlines()
 for line in lines:

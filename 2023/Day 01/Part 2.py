@@ -17,7 +17,7 @@ def searchLine(line, allowed):
             continue
     return first
 
-f = open("2023\\Day 1\\input.txt")
+f = open("2023\\Day 01\\input.txt")
 lines = f.readlines()
 total = 0
 allowed = list("123456789") + ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
