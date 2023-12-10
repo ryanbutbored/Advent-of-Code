@@ -1,4 +1,4 @@
-from sympy.ntheory import factorint
+from math import lcm
 f = open("2023\\Day 08\\input.txt")
 lines = f.readlines()
 directions = lines[0].strip()
@@ -27,8 +27,4 @@ for node in current:
             counts.append(counter)
             found = True
 
-print()
-lcm = 1
-factors = [factorint(x) for x in counts]
-print(factors)
-print(69599091403*307)
+print(lcm(*counts))
